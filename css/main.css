@@ -1,0 +1,294 @@
+/* Reset some default styles for better consistency */
+*{
+    margin:                              0;
+    padding:                             0;
+    box-sizing:                 border-box;
+}
+html,body{
+    height:                           100%;
+    width:                            100%;
+    font-family:         Arial, sans-serif;
+}
+#main{
+    height:                           100%;
+    width:                            100%;
+}
+/* Header section styles */
+#header{
+    display:                          flex;
+    width:                         100vmax;
+    height:                        1.5vmax;
+    align-items:                    center;
+    background-color:  rgb(255, 239, 92);
+}
+#home img{
+    width:                        1.35vmax;
+}
+#heading {
+    flex:                                1; /* Take up remaining space */
+    text-align:                     center; /* Center align text */
+    font-size:                    1.25vmax;
+    font-weight:                      bold;
+}
+.container{
+    position:                     relative;
+}
+#lab{
+    display:                        flex;
+    position:                   absolute;
+    width:                       100vmax;
+    height:                    44.45vmax;
+}
+#beaker{
+    top:                          16vmax;
+    left:                         80vmax;
+    width:                         7vmax;
+    height:                        9vmax;
+    position:                   absolute;
+    cursor:                      pointer;
+}
+.Beakerfilled:hover{
+    transform:    translateY(-0.1vmax);
+}
+#burner{
+    top:                       19.25vmax;
+    left:                       5.75vmax;
+    width:                     18.25vmax;
+    height:                        7vmax;
+    cursor:                      pointer;
+    position:                   absolute;
+}
+#burner:hover{
+    transform:    translateY(-0.1vmax);
+}
+#clampstand{
+    top:                        6.5vmax;
+    left:                     11.75vmax;
+    width:                        9vmax;
+    height:                      17vmax;
+    cursor:                     pointer;
+    position:                  absolute;
+}
+#clampstand:hover{
+    transform:    translateY(-0.1vmax);
+}
+#funnel{
+    top:                    21.25vmax;
+    left:                   57.75vmax;
+    width:                      4vmax;
+    height:                     7vmax;
+    cursor:                   pointer;
+    transform-origin:          center;
+    transform:          rotate(70deg);
+    position:                absolute;
+}
+#funnel:hover{
+    transform:    translateY(-0.1vmax);
+}
+#gauge{
+    top:                       16vmax;
+    left:                   43.95vmax;
+    width:                     11vmax;
+    height:                     3vmax;
+    cursor:                   pointer;
+    position:                absolute;
+}
+#gauge:hover{
+    transform:    translateY(-0.1vmax);
+}
+#napthalene{
+    top:                       19vmax;
+    left:                    63.5vmax;
+    width:                    7.5vmax;
+    height:                     5vmax;
+    cursor:                   pointer;
+    position:                absolute;
+}
+#napthalene:hover{
+    transform:    translateY(-0.1vmax);
+}
+#scale{
+    top:                      13vmax;
+    left:                   26.5vmax;
+    width:                     9vmax;
+    height:                   13vmax;
+    cursor:                  pointer;
+    position:               absolute;
+}
+#scale:hover{
+    transform:    translateY(-0.1vmax);
+}
+#spatula{
+    top:                   21.25vmax;
+    left:                  65.75vmax;
+    width:                     9vmax;
+    height:                 4.75vmax;
+    cursor:                  pointer;
+    position:               absolute;
+}
+#spatula:hover{
+    transform:    translateY(-0.1vmax);
+}
+#stirrer{
+    top:                   15.25vmax;
+    left:                     84vmax;
+    width:                     7vmax;
+    height:                    9vmax;
+    cursor:                  pointer;
+    position:               absolute;
+    rotate:                   290deg;
+}
+#stirrer:hover{
+    transform:    translateY(-0.1vmax);
+}
+#sulphur{
+    top:                      12vmax;
+    left:                   89.5vmax;
+    width:                   6.5vmax;
+    height:                   10vmax;
+    cursor:                  pointer;
+    position:               absolute;
+}
+#sulphur:hover{
+    transform:    translateY(-0.1vmax);
+}
+#thermometer{
+    top:                      20vmax;
+    left:                  35.75vmax;
+    width:                  9.75vmax;
+    height:                    6vmax;
+    cursor:                  pointer;
+    position:               absolute;
+}
+#thermometer:hover{
+    transform:    translateY(-0.1vmax);
+}
+#tripod{
+    top:                   16.25vmax;
+    left:                  45.75vmax;
+    width:                     7vmax;
+    height:                    9vmax;
+    cursor:                  pointer;
+    position:               absolute;
+}
+#tripod:hover{
+    transform:    translateY(-0.1vmax);
+}
+#tube{
+    top:                   20.25vmax;
+    left:                     55vmax;
+    width:                  1.75vmax;
+    height:                    7vmax;
+    cursor:                  pointer;
+    transform-origin:         center;
+    transform:         rotate(60deg);
+    position:               absolute;
+}
+#tube:hover{
+    transform:    translateY(-0.1vmax);
+}
+#water{
+    top:                   12.5vmax;
+    left:                  37.5vmax;
+    width:                  6.5vmax;
+    height:                  11vmax;
+    cursor:                 pointer;
+    position:              absolute;
+}
+#water:hover{
+    transform:    translateY(-0.1vmax);
+}
+#waterfill{
+    top:                  18.2vmax;
+    left:                  47.2vmax;
+    width:                  5.8vmax;
+    height:                 6.6vmax;
+    position:              absolute;
+}
+#weight{
+    top:                        22vmax;
+    left:                       73vmax;
+    width:                       7vmax;
+    height:                      3vmax;
+    cursor:                    pointer;
+    position:                 absolute;
+}
+#weight:hover{
+    transform:    translateY(-0.1vmax);
+}
+footer{
+    display:                  flex;
+    position:             absolute;
+    width:                 100vmax;
+    height:               1.75vmax;
+    align-items:            center;
+    background-color:lightsalmon;
+    bottom: 0;
+}
+button{
+    background-color:     silver;
+    font-size:            0.85vmax;
+    font-weight:              bold;
+    border-style:            solid;
+    border-radius:             5px;
+    cursor:                pointer;
+    width:                 3.5vmax;
+    height:                1.5vmax; 
+}
+button:hover{
+    background-color:rgb(75, 73, 73);
+    transform:    translateY(-0.1vmax);
+    color:                 aliceblue;
+}
+#lang_selector{
+    display:                  flex;
+    flex-direction:         column;
+    align-items:            center;
+    justify-content:        center;
+    position:             absolute;
+    width:                    100%;
+    height:                   100%;
+    border:    4px solid #000000;
+    background-color: rgba(1, 1, 1, 0.95);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    top:                        0%;
+}
+#welcome{
+    position:             absolute;
+    top:                        5%;
+    font-size:                 2vw;
+    color:      rgb(130, 57, 57);
+    text-decoration:     underline;
+}
+#lselector {
+    position:             absolute;
+    top:                       33%;
+    font-size:                 2vw;
+    color:     rgb(182, 119, 46);
+}
+button#Hindi, button#Eng {
+    position:             absolute;
+    top:                       55%;
+    font-family:        sans-serif;
+    width:                    6.5%;
+    height:                     5%;
+    box-shadow: 2px 2px 0px 1px rgb(153, 156, 156);
+    background-color: rgb(48, 27, 47);
+    border:  1px solid aliceblue;
+    color:      rgb(179, 29, 79);
+    font-size:               1.5vw;
+}
+#Eng{
+    left:                      63%;
+}
+#Hindi{
+    left:                   30.25%;
+}
+button#Hindi:active, button#Eng:active{
+    transform:          scale(0.9);
+}
+
+@keyframes Steps{
+    0%{left: -641px;}
+    100%{left: 0px;}
+}
